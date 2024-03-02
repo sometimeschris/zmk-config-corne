@@ -83,7 +83,7 @@
                         bindings = <
    &kp  TAB  &kp EXCL       &kp AT         &kp HASH       &kp DLLR       &kp PRCNT        &kp CARET &kp LBRC  &kp RBRC &kp AMPS  &kp KP_MULTIPLY &kp BSPC
    &kp LCTRL &td0           &td1           &td2           &td3           &td4             &kp MINUS &kp LPAR  &kp RPAR &kp EQUAL &kp BSLH        &kp GRAVE
-   &kp LSHFT &kp LS(LC(N1)) &kp LS(LC(N2)) &kp LS(LC(N3)) &kp LS(LC(N4)) &kp LS(LC(N5))   &kp UNDER &kp LBKT  &kp RBKT &kp PLUS  &kp PIPE        &kp TILDE
+   &kp LSHFT &kp RA(N1)     &kp RA(N2)     &kp RA(N3)     &kp RA(N4)     &kp RA(N5)       &kp UNDER &kp LBKT  &kp RBKT &kp PLUS  &kp PIPE        &kp TILDE
                                            &kp LGUI       &trans         &kp SPACE        &kp RET   &trans    &kp RALT
                         >;
                 };
