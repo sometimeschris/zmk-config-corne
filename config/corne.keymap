@@ -11,18 +11,17 @@
 #include <dt-bindings/zmk/outputs.h>
 
 / {
-  behaviors {
-    mm1: move_monitor_0 {
-      compatible = "zmk,behavior-tap-dance";
-      #binding-cells = <0>;
-      tapping-term-ms = <200>;
-      bindings = <&kp LC(N1)>, <LS(LC(N1))>;
+    behaviors {
+      mm1: move_monitor_0 {
+        compatible = "zmk,behavior-tap-dance";
+        #binding-cells = <0>;
+        tapping-term-ms = <200>;
+        bindings = <&kp LC(N1)>, <LS(LC(N1))>;
+      };
     };
-  };
 
-/ {
-        keymap {
-                compatible = "zmk,keymap";
+    keymap {
+      compatible = "zmk,keymap";
 
                 default_layer {
 // -----------------------------------------------------------------------------------------
