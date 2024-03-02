@@ -15,31 +15,31 @@
         td0: tap_dance_0 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            tapping-term-ms = <100>;
+            tapping-term-ms = <150>;
             bindings = <&kp LC(N1)>, <&kp LS(LC(N1))>;
         };
         td1: tap_dance_1 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            tapping-term-ms = <100>;
+            tapping-term-ms = <150>;
             bindings = <&kp LC(N2)>, <&kp LS(LC(N2))>;
         };
         td2: tap_dance_2 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            tapping-term-ms = <100>;
+            tapping-term-ms = <150>;
             bindings = <&kp LC(N3)>, <&kp LS(LC(N3))>;
         };
         td3: tap_dance_3 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            tapping-term-ms = <100>;
+            tapping-term-ms = <150>;
             bindings = <&kp LC(N4)>, <&kp LS(LC(N4))>;
         };
         td4: tap_dance_4 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            tapping-term-ms = <100>;
+            tapping-term-ms = <150>;
             bindings = <&kp LC(N5)>, <&kp LS(LC(N5))>;
         };
     };
