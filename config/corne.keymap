@@ -11,7 +11,7 @@
 #include <dt-bindings/zmk/outputs.h>
 
 / {
-  behaviors: {
+  behaviors {
     mm1: move_monitor_0 {
       compatible = "zmk,behavior-tap-dance";
       #binding-cells = <0>;
