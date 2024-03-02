@@ -15,8 +15,32 @@
         td0: tap_dance_0 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <100>;
             bindings = <&kp LC(N1)>, <&kp LS(LC(N1))>;
+        };
+        td1: tap_dance_1 {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <100>;
+            bindings = <&kp LC(N2)>, <&kp LS(LC(N2))>;
+        };
+        td2: tap_dance_2 {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <100>;
+            bindings = <&kp LC(N3)>, <&kp LS(LC(N3))>;
+        };
+        td3: tap_dance_3 {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <100>;
+            bindings = <&kp LC(N4)>, <&kp LS(LC(N4))>;
+        };
+        td4: tap_dance_4 {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <100>;
+            bindings = <&kp LC(N5)>, <&kp LS(LC(N5))>;
         };
     };
 
@@ -58,7 +82,7 @@
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
    &kp  TAB  &kp EXCL       &kp AT         &kp HASH       &kp DLLR       &kp PRCNT        &kp CARET &kp LBRC  &kp RBRC &kp AMPS  &kp KP_MULTIPLY &kp BSPC
-   &kp LCTRL &td0           &kp LC(N2)     &kp LC(N3)     &kp LC(N4)     &kp LC(N5)       &kp MINUS &kp LPAR  &kp RPAR &kp EQUAL &kp BSLH        &kp GRAVE
+   &kp LCTRL &td0           &td1           &td2           &td3           &td4             &kp MINUS &kp LPAR  &kp RPAR &kp EQUAL &kp BSLH        &kp GRAVE
    &kp LSHFT &kp LS(LC(N1)) &kp LS(LC(N2)) &kp LS(LC(N3)) &kp LS(LC(N4)) &kp LS(LC(N5))   &kp UNDER &kp LBKT  &kp RBKT &kp PLUS  &kp PIPE        &kp TILDE
                                            &kp LGUI       &trans         &kp SPACE        &kp RET   &trans    &kp RALT
                         >;
